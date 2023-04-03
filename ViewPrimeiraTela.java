@@ -49,7 +49,7 @@ public class ViewPrimeiraTela extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton = new JButton("Ação");
+		JButton btnNewButton = new JButton("Executar");
 		btnNewButton.addActionListener(new ActionListener() {
 			
 			public void actionPerformed(ActionEvent e) {
